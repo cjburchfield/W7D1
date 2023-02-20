@@ -1,0 +1,10 @@
+<h3>new user form</h3>
+
+<form action="<%= :new %>" method="POST">
+    <label for="username">Username</label>
+    <input
+        type="text"
+        name="user[username]"
+        id="username"
+        value="<%= @user.username %>"
+    >
